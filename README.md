@@ -1,2 +1,3 @@
 # career-note-jp
-転職NOTE
+
+Updated: 2026-04-01
