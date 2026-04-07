@@ -7,9 +7,9 @@ const AMAZON_TRACKING_ID = process.env.AMAZON_TRACKING_ID || 'haircolorab22-22';
 const RAKUTEN_AFFILIATE_ID = process.env.RAKUTEN_AFFILIATE_ID || '5253b9ed.08f9d938.5253b9ee.e71aefe8';
 const MOSHIMO_ID = '1184522';
 
-const SITE_NAME = 'キャリアNOTE';
-const TOPIC = '転職・キャリアアップ・スキルアップ';
-const CRITERIA = '求人数・サポート・使いやすさ・実績・コスパ';
+const SITE_NAME = 'キャリアNote';
+const TOPIC = '転職・キャリアアップ・就職';
+const CRITERIA = '求人数・サポート・使いやすさ・実績・口コミ';
 
 function moshimoAmazonLink(keyword) {
   const searchUrl = encodeURIComponent(`https://www.amazon.co.jp/s?k=${encodeURIComponent(keyword)}&tag=${AMAZON_TRACKING_ID}`);
